@@ -1,1 +1,6 @@
+1-For me, Pandas was easier to use due to its indexing that makes the data more abstract and it feels more intuitive for data manipulation and the operation we had to perform. Its code is also easier to read because it's close to how we naturally think about data in rows and columns.
+
+2- The pivot_months_pandas() function is faster (12.6 ms) than the pivot_months_loops() function (701 ms). This is because with just the basic loops we had to create new structures to hold the data for every single row in the precipitation file, which is time-consuming. But with the pandas implementation, it handles data much faster thanks to the built-in functions that we used, such as apply and pivot.
+
+
 
