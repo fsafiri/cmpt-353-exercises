@@ -1,1 +1,1 @@
-
+The result of the calculation data['timestamp']*fit.slope + fit.intercept is the predicted dog ratings based on the bestfit line from the linear regression, the slope controlling the rate of change and the intercept giving the rating when timstamp is 0. It is a series of type Float6.
