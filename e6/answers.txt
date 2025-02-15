@@ -1,6 +1,11 @@
-1- we were p-hacking as we ran multiple tests without adjusting for it. I wouldn't be fully confident in the conclusions unless we correct for multiple comparisons, like using the bonferroni correction.
+1- we were p-hacking as we ran multiple tests without adjusting for it. 
+wouldn't be fully confident in the conclusions unless we correct for multiple 
+comparisons, like using the bonferroni correction.
 
-2- we’ll run 21 tests. Without adjustment the chance of false conclusions increases. The Bonferroni corrected p-value would be 0.00238 to reduce this risk.
+2- we’ll run 21 tests. Without adjustment the chance of false conclusions 
+increases. The Bonferroni corrected p-value would be 0.00238 to reduce this 
+risk.
 
-3- the algorithms are ranked by mean speed, but those with p-values above 0.00238 in the ttests are not significantly different in runtime.
+3- the algorithms are ranked by mean speed, but those with p-values above 
+0.00238 in the ttests are not significantly different in runtime.
 
