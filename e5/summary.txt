@@ -1,0 +1,11 @@
+Dataset 1: this dataset has a strong positive correlation r = 0.95 between x and y, meaning as x increases, y also increases. The average x is around 8.72, and y is 12.52, with a wide range of values.
+
+Dataset 2: there’s a strong positive correlation r= 0.96 between x and y. The mean for both x and y is slightly negative, and they have a lot of variability in their values.
+
+Dataset 3: this dataset has an almost perfect positive correlation r = 0.98, showing a strong linear relationship between x and y. The mean of x is close to 1, while y is about 8.51, with low variability.
+
+Dataset 4: x and y show a very weak negative correlation r = -0.08, meaning there’s almost no relationship between them. x has a much higher mean than y, and both have large ranges.
+
+Dataset 5: it is like Dataset 4, with a weak negative correlation r= -0.09. Both x and y have wide ranges, but there’s not much connection between their values.
+
+Dataset 6: it has a strong positive correlation r=0.94, showing that as x increases, so does y. The averages for both variables are 26.73for x and 27.72 for y
