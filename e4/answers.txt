@@ -1,2 +1,5 @@
-1- The temperatures can affect population density, but they aren't the only factor. To really understand and predict population density, we need to look at other things like economic conditions, and other geographic features. So, while daily temperatures are helpful, they should be viewed alongside other factors that impact where people live and how crowded those areas are.
-2-Working with the compressed files can be faster than using uncompressed files because that can reduce disk i/o and memory usage, which allows a quicker access and processing of data.
+1- The temperatures can affect population density, but they aren't the only factor. To really understand and predict population density, we need to look at other things like 
+economic conditions, and other geographic features. So, while daily temperatures are helpful, they should be viewed alongside other factors that impact where people live and 
+how crowded those areas are.
+2-Working with the compressed files can be faster than using uncompressed files because that can reduce disk i/o and memory usage, which allows a quicker access and processing 
+of data.
