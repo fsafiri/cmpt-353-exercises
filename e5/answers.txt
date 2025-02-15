@@ -1,0 +1,8 @@
+1-The closest transform to ttest assumptions was the square root transformation which improved normality and variance assumptions.
+
+2-For original ttest rejecting the null suggests weekdays and weekends have significantly different comment counts.
+For transformed data ttest rejecting means the same, but the result is more reliable due to better assumptions (normality and equal variances)
+
+3- The weekly aggregation ttest offers a clearer and more robust answer by reducing the daily variability of the data
+
+4-On average more comments are posted on weekdays 1823.6 compared to weekends 1269.5
