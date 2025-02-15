@@ -1,3 +1,7 @@
-1- I found that loess worked better for capturing local trends of the temperature data, especially when the temperature was relatively stable, but it sometimes lagged behind fast changes. But for Kalman smoothing, it was more efficient for adjusting to those changes in real time, making it better suited for the fluctuations in cpu temperature during intensive tasks.Also, loess only allowed to tweak one parameter which was the fraction, while Kalman gave us the opportunity to experiment with many other parameters, which gave us more flexibility in finetuning the model.
+1- I found that loess worked better for capturing local trends of the temperature data, especially when the temperature was relatively stable, but it sometimes lagged behind 
+fast changes.But for Kalman smoothing, it was more efficient for adjusting to those changes in real time, making it better suited for the fluctuations in cpu temperature during 
+intensive tasks.Also, loess only allowed to tweak one parameter which was the fraction, while Kalman gave us the opportunity to experiment with many other parameters, which 
+gave us more flexibility in finetuning the model.
 
-2- Using both together could really improve our predictions for the next latitude and longitude, if they had been included, they could have been added to the transition matrix to enhance our predictions.
+2- Using both together could really improve our predictions for the next latitude and longitude, if they had been included, they could have been added to the transition matrix 
+to enhance our predictions.
