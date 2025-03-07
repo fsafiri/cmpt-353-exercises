@@ -26,7 +26,8 @@ real    0m39.288s
 user    0m56.048s
 sys     0m5.380s
 
-2- Most of the time is spent reading the files, especially due to determining the data structure and repeated scans. From previous question we see that averages takes less time once the schema is provided.
+2- Most of the time is spent reading the files, especially due to determining the data structure and repeated scans. From previous question we see that averages takes less
+time once the schema is provided.
 
 
 3- After filtering the dataset for English Wikipedia pages, excluding Main_Page and pages starting with Special. 
