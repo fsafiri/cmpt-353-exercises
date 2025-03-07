@@ -1,0 +1,2 @@
+1- The Random Forest classifier did the best, a higher accuracy compared to theother classifiers,because it can handle complex patterns in color data better than the other models, especially if the color space, like LAB, is designed to match how we actually see colors.
+2- Yes, these mistakes seem reasonable, as the model is detecting similarities in weather patterns but lacks enough features to separate cities with similar climates. We may consider adding features like latitude, elevation, and proximity to water, to help the model better differentiate these cities.
