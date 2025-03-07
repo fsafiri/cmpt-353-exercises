@@ -1,0 +1,12 @@
+1. The intermediate result filtered was cached  because it is reused multiple times in later transformations and joins. Without caching, spark would recompute filtered every time it was needed which will increas runtime significantly due to repeated computations.
+2. Without broadcast: 
+real    1m0.125s
+user    0m37.701s
+sys     0m3.127s
+
+with the broadcast: 
+real    0m50.360s
+user    0m46.032s
+sys     0m3.447s
+
+
