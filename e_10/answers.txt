@@ -1,0 +1,34 @@
+
+1- 
+for reddit-0 
+real    0m36.124s
+
+user    0m21.211s
+sys     0m2.291s
+
+
+for reddit-2 
+
+without schema, without caches
+real    2m22.929s
+
+user    2m7.283s
+sys     0m6.809s
+
+with schema, without caches
+real    1m12.644s
+
+user    0m50.884s
+sys     0m4.964s
+
+with schema, with caches
+real    0m39.288s
+
+user    0m56.048s
+sys     0m5.380s
+
+2- Most of the time is spent reading the files, especially due to determining the data structure and repeated scans. From previous question we see that averages takes less
+time once the schema is provided.
+
+
+3- After filtering the dataset for English Wikipedia pages, excluding Main_Page and pages starting with Special. 
