@@ -1,0 +1,2 @@
+1- the resulting pvalue suggests that our ratings are indeed increasing, and the residuals appear to be approximately normally distributed
+2- yes the updated Kalman filter appears to be more effective at capturing the true signal compared to the previous one we used in e2
